@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>TenMate</title>
+<meta name="description" content="TenMate(텐메이트)의 앱 「큰글씨 초성퀴즈 - 하루 열 문제」 안내">
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --text: #1d1d1b;
+    --muted: #55534d;
+    --line: #dedad0;
+    --card: #ffffff;
+    --accent: #1f5f8b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161614;
+      --text: #f1efe9;
+      --muted: #bdb9ae;
+      --line: #3a3934;
+      --card: #201f1c;
+      --accent: #8cc4ec;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", system-ui, sans-serif;
+    font-size: 20px;
+    line-height: 1.7;
+    word-break: keep-all;
+  }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  main { max-width: 40rem; margin: 0 auto; padding: 40px 16px 64px; }
+  .brand { color: var(--muted); font-weight: 700; letter-spacing: 0.02em; margin: 0 0 28px; }
+  .app { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 24px 22px; }
+  h1 { font-size: 1.6rem; line-height: 1.4; margin: 0 0 10px; }
+  .lead { margin: 0 0 22px; }
+  ul.links { list-style: none; padding: 0; margin: 0; }
+  ul.links li { margin: 0 0 12px; }
+  ul.links a {
+    display: block;
+    padding: 14px 18px;
+    border: 2px solid var(--accent);
+    border-radius: 12px;
+    color: var(--accent);
+    font-weight: 700;
+    text-decoration: none;
+  }
+  ul.links a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  ul.links a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .note { color: var(--muted); font-size: 0.95rem; margin: 18px 0 0; }
+  footer { margin-top: 36px; color: var(--muted); font-size: 0.95rem; }
+</style>
+</head>
+<body>
+<main>
+  <p class="brand">TenMate · 텐메이트</p>
+
+  <section class="app">
+    <h1>큰글씨 초성퀴즈 - 하루 열 문제</h1>
+    <p class="lead">큰 글씨로 편하게 푸는 한글 초성 퀴즈. 낱말·속담·사자성어를 하루 열 문제씩 즐겨 보세요.</p>
+    <ul class="links">
+      <li><a href="privacy.html">개인정보처리방침</a></li>
+      <li><a href="privacy.html#delete">개인정보 삭제 요청 방법</a></li>
+      <li><a href="mailto:tenmatecorp@gmail.com">문의 메일 보내기 (tenmatecorp@gmail.com)</a></li>
+    </ul>
+    <p class="note">안드로이드 앱 · 구글 플레이 출시 준비 중</p>
+  </section>
+
+  <footer>
+    <p>TenMate · <a href="mailto:tenmatecorp@gmail.com">tenmatecorp@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
